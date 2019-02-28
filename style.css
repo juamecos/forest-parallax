@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+.parallax {
+  display: block;
+  height: 763px; 
+}
+
+.parallax__layer {
+  position: fixed;
+  top: 0;
+  background-position: center !important;
+  transform: translateY(0px);
+  height: 720px; 
+  width: 100%;
+}
+
+
+.content {
+  position: relative;
+  height: 2000px;
+  background-color: blanchedalmond;
+}
